@@ -91,7 +91,9 @@
 
     <modules>
         <module>spring-servlet</module>
+        <!--
         <module>spring-reactive</module>
+        -->
     </modules>
 
     <dependencyManagement>
@@ -102,11 +104,13 @@
                 <artifactId>spring-servlet</artifactId>
                 <version>${project.version}</version>
             </dependency>
+            <!--
             <dependency>
                 <groupId>com.networknt</groupId>
                 <artifactId>spring-reactive</artifactId>
                 <version>${project.version}</version>
             </dependency>
+            -->
             <dependency>
                 <groupId>com.networknt</groupId>
                 <artifactId>handler</artifactId>
