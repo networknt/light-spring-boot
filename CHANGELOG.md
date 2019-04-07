@@ -1,5 +1,11 @@
 # Change Log
 
+## [1.5.34](https://github.com/networknt/light-spring-boot/tree/1.5.34) (2019-04-07)
+
+
+**Merged pull requests:**
+
+
 ## [1.5.32](https://github.com/networknt/light-spring-boot/tree/1.5.32) (2019-03-20)
 **Closed issues:**
 
