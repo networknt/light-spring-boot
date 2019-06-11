@@ -20,7 +20,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.networknt</groupId>
     <artifactId>light-spring-boot</artifactId>
-    <version>1.6.5-SNAPSHOT</version>
+    <version>2.0.0</version>
     <packaging>pom</packaging>
     <name>Parent POM</name>
     <description>Light 4J Framework Spring Boot Components</description>
@@ -91,9 +91,9 @@
     </repositories>
 
     <properties>
-        <java.version>1.8</java.version>
+        <java.version>11</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <version.light-4j>1.6.5-SNAPSHOT</version.light-4j>
+        <version.light-4j>2.0.0</version.light-4j>
         <version.slf4j>1.7.25</version.slf4j>
         <version.logback>1.2.3</version.logback>
         <version.junit>4.12</version.junit>
@@ -106,13 +106,10 @@
         <!--<version.maven-release>2.5.3</version.maven-release>-->
         <version.maven-javadoc>2.10.4</version.maven-javadoc>
         <version.jacoco>0.7.9</version.jacoco>
-        <version.maven-compiler>3.6.1</version.maven-compiler>
+        <version.maven-compiler>3.8.0</version.maven-compiler>
         <version.build-helper-maven>1.9.1</version.build-helper-maven>
-        <version.plexus-compiler-javac-errorprone>2.8</version.plexus-compiler-javac-errorprone>
-        <version.error_prone_core>2.0.15</version.error_prone_core>
         <version.lifecycle-mapping>1.0.0</version.lifecycle-mapping>
         <version.maven-gpg>1.6</version.maven-gpg>
-        <argLine>-Xmx512m</argLine>
     </properties>
 
     <modules>
@@ -424,32 +421,8 @@
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>${version.maven-compiler}</version>
                 <configuration>
-                    <compilerId>javac-with-errorprone</compilerId>
-                    <showWarnings>true</showWarnings>
-                    <showDeprecation>true</showDeprecation>
-                    <compilerArgs>
-                        <!-- add command line validation here -->
-                    </compilerArgs>
-                    <forceJavacCompilerUse>true</forceJavacCompilerUse>
-                    <!-- maven-compiler-plugin defaults to targeting Java 5, but our javac
-                         only supports >=6 -->
-                    <source>${java.version}</source>
-                    <target>${java.version}</target>
+                    <release>${java.version}</release>
                 </configuration>
-                <dependencies>
-                    <dependency>
-                        <groupId>org.codehaus.plexus</groupId>
-                        <artifactId>plexus-compiler-javac-errorprone</artifactId>
-                        <version>${version.plexus-compiler-javac-errorprone}</version>
-                    </dependency>
-                    <!-- override plexus-compiler-javac-errorprone's dependency on
-                         Error Prone with the latest version -->
-                    <dependency>
-                        <groupId>com.google.errorprone</groupId>
-                        <artifactId>error_prone_core</artifactId>
-                        <version>${version.error_prone_core}</version>
-                    </dependency>
-                </dependencies>
             </plugin>
         </plugins>
         <pluginManagement>
