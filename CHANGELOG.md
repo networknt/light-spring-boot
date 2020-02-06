@@ -6,6 +6,8 @@
 **Merged pull requests:**
 
 
+
+
 ## [1.6.14](https://github.com/networknt/light-spring-boot/tree/1.6.14) (2020-01-31)
 
 
