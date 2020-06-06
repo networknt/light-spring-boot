@@ -20,7 +20,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.networknt</groupId>
     <artifactId>light-spring-boot</artifactId>
-    <version>1.6.22-SNAPSHOT</version>
+    <version>1.6.22</version>
     <packaging>pom</packaging>
     <name>Parent POM</name>
     <description>Light 4J Framework Spring Boot Components</description>
@@ -93,7 +93,7 @@
     <properties>
         <java.version>1.8</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <version.light-4j>1.6.22-SNAPSHOT</version.light-4j>
+        <version.light-4j>1.6.22</version.light-4j>
         <version.slf4j>1.7.25</version.slf4j>
         <version.logback>1.2.3</version.logback>
         <version.junit>4.12</version.junit>
