@@ -96,7 +96,7 @@
         <version.light-4j>2.0.19-SNAPSHOT</version.light-4j>
         <version.slf4j>1.7.25</version.slf4j>
         <version.logback>1.2.3</version.logback>
-        <version.junit>4.12</version.junit>
+        <version.junit>4.13.1</version.junit>
         <version.spring-boot>2.1.3.RELEASE</version.spring-boot>
         <version.undertow>2.1.3.Final</version.undertow>
         <version.maven-version>2.7</version.maven-version>
