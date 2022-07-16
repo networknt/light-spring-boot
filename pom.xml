@@ -97,7 +97,7 @@
         <version.slf4j>1.7.36</version.slf4j>
         <version.logback>1.2.11</version.logback>
         <version.junit>4.13.1</version.junit>
-        <version.spring-boot>2.1.3.RELEASE</version.spring-boot>
+        <version.spring-boot>2.7.1</version.spring-boot>
         <version.undertow>2.2.18.Final</version.undertow>
         <version.maven-version>2.7</version.maven-version>
         <version.nexus-staging-maven>1.6.8</version.nexus-staging-maven>
