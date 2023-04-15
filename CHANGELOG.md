@@ -1,5 +1,11 @@
 # Change Log
 
+## [2.1.12](https://github.com/networknt/light-spring-boot/tree/2.1.12) (2023-04-14)
+
+
+**Merged pull requests:**
+
+
 ## [2.1.11](https://github.com/networknt/light-spring-boot/tree/2.1.11) (2023-04-10)
 
 
