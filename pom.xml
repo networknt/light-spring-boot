@@ -100,7 +100,7 @@
         <version.slf4j>2.0.17</version.slf4j>
         <version.logback>1.5.18</version.logback>
         <version.junit>4.13.2</version.junit>
-        <version.spring-boot>2.7.1</version.spring-boot>
+        <version.spring-boot>2.7.18</version.spring-boot>
         <version.undertow>2.3.18.Final</version.undertow>
         <version.maven-version>2.7</version.maven-version>
         <version.nexus-staging-maven>1.7.0</version.nexus-staging-maven>
