@@ -22,11 +22,12 @@
         <groupId>com.networknt</groupId>
         <artifactId>light-spring-boot</artifactId>
         <version>1.5.32</version>
-        <relativePath>..</relativePath>
+        <relativePath>../pom.xml</relativePath>
     </parent>
 
     <artifactId>spring-reactive</artifactId>
     <packaging>jar</packaging>
+    <name>spring-reactive</name>
     <description>A spring boot customizer for reactive web server.</description>
 
     <dependencies>

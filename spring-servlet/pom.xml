@@ -22,11 +22,12 @@
         <groupId>com.networknt</groupId>
         <artifactId>light-spring-boot</artifactId>
         <version>2.2.2</version>
-        <relativePath>..</relativePath>
+        <relativePath>../pom.xml</relativePath>
     </parent>
 
     <artifactId>spring-servlet</artifactId>
     <packaging>jar</packaging>
+    <name>spring-servlet</name>
     <description>A spring boot customizer for servlet web server.</description>
 
     <dependencies>
