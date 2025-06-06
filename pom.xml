@@ -111,8 +111,8 @@
         <version.maven-compiler>3.8.0</version.maven-compiler>
         <version.build-helper-maven>1.9.1</version.build-helper-maven>
         <version.lifecycle-mapping>1.0.0</version.lifecycle-mapping>
-        <version.maven-gpg>1.6</version.maven-gpg>
         <version.maven-javadoc>3.4.1</version.maven-javadoc>
+        <version.maven-gpg>3.2.7</version.maven-gpg>
     </properties>
 
     <modules>
