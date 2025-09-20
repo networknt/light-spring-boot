@@ -6,6 +6,8 @@
 **Merged pull requests:**
 
 
+
+
 ## [2.3.0](https://github.com/networknt/light-spring-boot/tree/2.3.0) (2025-06-25)
 
 
