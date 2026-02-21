@@ -99,13 +99,13 @@
         <version.light-4j>2.3.4-SNAPSHOT</version.light-4j>
         <version.slf4j>2.0.17</version.slf4j>
         <version.logback>1.5.26</version.logback>
-        <version.junit>4.13.2</version.junit>
+        <version.junit>5.11.4</version.junit>
         <version.spring-boot>2.7.18</version.spring-boot>
         <version.undertow>2.3.22.Final</version.undertow>
         <version.maven-version>2.7</version.maven-version>
         <version.nexus-staging-maven>1.7.0</version.nexus-staging-maven>
         <version.maven-source>3.0.1</version.maven-source>
-        <version.maven-surefire>2.22.1</version.maven-surefire>
+        <version.maven-surefire>3.5.2</version.maven-surefire>
         <!--<version.maven-release>2.5.3</version.maven-release>-->
         <version.jacoco>0.7.9</version.jacoco>
         <version.maven-compiler>3.8.0</version.maven-compiler>
@@ -223,8 +223,8 @@
                 <scope>test</scope>
             </dependency>
             <dependency>
-                <groupId>junit</groupId>
-                <artifactId>junit</artifactId>
+                <groupId>org.junit.jupiter</groupId>
+                <artifactId>junit-jupiter</artifactId>
                 <version>${version.junit}</version>
                 <scope>test</scope>
             </dependency>
@@ -290,13 +290,6 @@
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>${version.maven-surefire}</version>
-                <dependencies>
-                    <dependency>
-                        <groupId>org.apache.maven.surefire</groupId>
-                        <artifactId>surefire-junit47</artifactId>
-                        <version>${version.maven-surefire}</version>
-                    </dependency>
-                </dependencies>
             </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
