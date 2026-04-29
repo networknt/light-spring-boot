@@ -20,3 +20,7 @@ hs_err_pid*
 !rest.zip
 
 .DS_Store
+.gitnexus
+.claude/
+AGENTS.md
+CLAUDE.md
