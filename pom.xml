@@ -102,7 +102,7 @@
         <version.logback>1.5.26</version.logback>
         <version.junit>5.11.4</version.junit>
         <version.spring-boot>2.7.18</version.spring-boot>
-        <version.undertow>2.3.22.Final</version.undertow>
+        <version.undertow>2.4.1.Final</version.undertow>
         <version.maven-version>2.7</version.maven-version>
         <version.nexus-staging-maven>1.7.0</version.nexus-staging-maven>
         <version.maven-source>3.0.1</version.maven-source>
