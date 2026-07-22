@@ -94,7 +94,7 @@
     </pluginRepositories>
 
     <properties>
-        <java.version>21</java.version>
+        <java.version>25</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <version.light-4j>2.3.5-SNAPSHOT</version.light-4j>
         <version.jackson>2.21.1</version.jackson>
@@ -102,13 +102,13 @@
         <version.logback>1.5.37</version.logback>
         <version.junit>5.11.4</version.junit>
         <version.spring-boot>2.7.18</version.spring-boot>
-        <version.undertow>2.4.1.Final</version.undertow>
+        <version.undertow>2.3.24.Final</version.undertow>
         <version.maven-version>2.7</version.maven-version>
         <version.nexus-staging-maven>1.7.0</version.nexus-staging-maven>
         <version.maven-source>3.0.1</version.maven-source>
         <version.maven-surefire>3.5.2</version.maven-surefire>
         <!--<version.maven-release>2.5.3</version.maven-release>-->
-        <version.jacoco>0.7.9</version.jacoco>
+        <version.jacoco>0.8.14</version.jacoco>
         <version.maven-compiler>3.8.0</version.maven-compiler>
         <version.build-helper-maven>1.9.1</version.build-helper-maven>
         <version.lifecycle-mapping>1.0.0</version.lifecycle-mapping>
